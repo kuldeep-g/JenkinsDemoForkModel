@@ -10,8 +10,10 @@ namespace MvcApplicationJenkinsDemo.Controllers
     {
         public ActionResult Index()
         {
+            ///Changes made by developer 1.
             ViewBag.Message = "Welcome to ASP.NET MVC!";
 
+            ///Another change made by developer 1.
             return View();
         }
 
