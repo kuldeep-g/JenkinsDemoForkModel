@@ -17,6 +17,8 @@ namespace MvcApplicationJenkinsDemo.Controllers
 
         public ActionResult LogOn()
         {
+            ///Developer 2 working on new feature. Commit 1.
+            ///Developer 2 made another change. Commit 2.
             return View();
         }
 
