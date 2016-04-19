@@ -77,8 +77,7 @@ namespace MvcApplicationJenkinsDemo.Controllers
         [HttpPost]
         public ActionResult Register(RegisterModel model)
         {
-            string generatewarning;
-
+            
             if (ModelState.IsValid)
             {
                 // Attempt to register the user
